@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+<br><br>
+    <div class="caixa">
+<br>
+    <h1 class="texto1">Cadastre-se para ter 50% de desconto no seu primeiro ingresso</h1>
+<br>
+    <input type="text" placeholder="Nome Completo: " 
+    size="40" style="border-radius: 7px; height: 30px;" id="nomeCompleto">
+<br><br>
+
+    <div class="algo">
+        <input type="text" placeholder="Gênero: " style="border-radius: 7px;" id="genero">
+        <h1> &nbsp;&nbsp;</h1>
+        <input type="text" placeholder="Como quer ser chamado?" style="border-radius: 7px;" id="nome">
+    </div>
+
+<br>
+    <div class="algo"> 
+        <input type="number" placeholder="CPF:" style="border-radius: 7px;" id="cpf">
+        <h1> &nbsp;&nbsp;</h1>
+        <input type="date" placeholder="Data de nascimento: " style="border-radius: 7px;" id="nascimento">
+    </div>
+<br>
+    
+    <h1> INFORMAÇÕES DE CONTATO </h1>
+    <div class="algo">
+        <input type="text" placeholder="E-mail: " style="border-radius: 7px;" id="email">
+        <h1> &nbsp;&nbsp;</h1>
+        <input type="number" placeholder="Telefone: " style="border-radius: 7px;" id="telefone">
+    </div>
+<br>
+
+    <h1> ENDEREÇO </h1>
+    <div class="algo">    
+        <input type="text" placeholder="Estado:" style="border-radius: 7px;" id="estado">
+        <h1> &nbsp;&nbsp;</h1>  
+        <input type="text" placeholder="Cidade: " style="border-radius: 7px;" id="cidade">
+    </div> 
+<br>
+    
+    <h1> CRIE SUA SENHA </h1>
+    <div class="algo">
+        <input type="text" placeholder="Senha: " style="border-radius: 7px;" id="senha"> 
+        <h1> &nbsp;&nbsp;</h1> 
+        <input type="text" placeholder="Confirme sua senha: " style="border-radius: 7px;" id="senha2"> 
+    </div>
+<br><br>
+
+    <button onclick="enviarCadastro()" class="botao"> Finalizar cadastro </button>
+<br><br><br>
+
+</center>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

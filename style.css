@@ -1,0 +1,25 @@
+body{
+    background-color: #0f0a0a;
+}
+.caixa{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+    width: 500px;
+    font-size: 13px;
+    color: rgb(238, 27, 4);
+    background-color: rgba(38, 35, 35, 0.893);
+}
+.texto1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.algo{
+    display: flex;
+    margin-left: 80px;
+    height: 35px;
+}
+.botao{
+    border-radius: 7px;
+    height: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
